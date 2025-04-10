@@ -1,0 +1,7 @@
+num1 = input("Digite o primeiro número")
+num1 = num1.replace(",",".")
+num1 = float(num1)
+num2 = input("Digite o segundo número")
+num2 = num2.replace(",",".")
+num2 = float(num2)
+print("Soma:", num1 + num2, "\nSubtração:", num1 - num2, "\nMultiplicação:", num1 * num2, "\nDivisão:", num1 / num2, "\n]Resto da divisão:", num1 % num2 )
