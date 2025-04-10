@@ -1,0 +1,11 @@
+num1 = input("Digite o primeiro número ")
+num1 = num1.replace(",",".")
+num1 = float(num1)
+num2 = input("Digite o segundo número ")
+num2 = num2.replace(",",".")
+num2 = float(num2)
+num3 = input("Digite o terceiro número ")
+num3 = num3.replace(",",".")
+num3 = float(num3)
+media = (num1 + num2 + num3) / 3
+print(media)
